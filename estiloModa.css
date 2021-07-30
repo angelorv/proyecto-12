@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+  }
+  
+  .grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header {
+    grid-area: header;
+    
+   
+        grid-area: header;
+        display:inline-block;
+      
+        background-image: url(img/fondo02.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        text-align: center;
+        text-transform:uppercase;  
+    
+    
+    
+    
+      
+  }
+  .header li{
+    grid-area: header;
+  text-align: ;
+  display:inline-block;
+ 
+  line-height:  10px;
+  padding-right: 10px;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.header li a{
+    grid-area: header ;
+    padding: 10PX;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  
+
+}
+.logo{
+    display:block;
+    margin:auto;
+    width: 100px; 
+    height: 100px;
+    float: left;
+    width: 160px;
+    padding-bottom: 20px;
+    padding-top: 2px;
+}
+
+
+
+  /*.navbar {
+    grid-area: navbar;
+    background-color: #afd6af;
+  }*/
+  
+  .sidebar {
+    grid-area: sidebar;
+    background-color: #fdcfcf;
+  }
+  
+  .main {
+    grid-area: main;
+    background-image: url(img/fondoHombre1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: #8c96a0;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+      "header"  100px
+      
+      "main"    2000px
+      "footer"  100px;
+  }
+
+#TextoHombre{
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+    
+}
+.PoleronHombre{
+    margin: 30px;
+
+}
+.footer {
+    grid-area: footer;
+    background-image: url(img/fondoindex3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  .footer1{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 200%;
+  }
+  .textoMain{
+      font-family:'Yellowtail', cursive;
+      color: coral;
+      font-size: 300%;
+      Margin-top: 30px;
+      margin-bottom:30px
+
+  }
+  .texto11 img{
+      
+  }
