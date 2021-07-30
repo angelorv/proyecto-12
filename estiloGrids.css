@@ -1,0 +1,147 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+  }
+  .header li{
+      grid-area: header;
+    text-align: ;
+    display:inline-block;
+   
+    line-height:  10px;
+    padding-right: 10px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .header li a{
+      grid-area: header ;
+      padding: 10PX;
+      margin: 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    
+
+  }
+  .textoFondo{
+    position: absolute;
+    top: 400px;
+    left:200px;
+    font-family: 'Shadows Into Light';
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+    font-weight: 5px;
+  }
+  .grid-container > * {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header {
+   
+    grid-area: header;
+    display:inline-block;
+  
+    background-image: url(img/fondo02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    text-transform:uppercase;  
+
+
+
+
+  }
+  .logoHombre{
+padding-top: 50px;
+
+  }
+  .fondo{
+width: 80%;
+  }
+  
+  /*.navbar {
+    grid-area: navbar;
+    background-color: #afd6af;
+  }*/
+  
+  .sidebar {
+    grid-area: sidebar;
+    background-image:url(img/fondoindex2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .sidebar img{
+width: 40%;
+margin: 0px;
+padding-bottom: 2px;
+margin-bottom: 50px;
+
+
+
+  }
+  
+  .main {
+    grid-area: main;
+    background-color:darkslategrey;
+  }
+  .empresa{
+    color: rgb(184, 26, 26);
+    padding: 30px;
+    font-size: 200%;
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    font-size: 300%;
+    text-transform:inherit;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-image: url(img/fondoindex3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+  .footer1{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 200%;
+  }
+  
+  A h2{
+   color: maroon;
+    
+  }
+  .link{
+    text-decoration: none;
+    margin:;
+   
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns:;
+    grid-template:
+      "header"  100px
+      /*"navbar"  50px*/
+      "main"    1000px
+      "sidebar" auto
+      "footer"  100px;
+  }

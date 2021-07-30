@@ -1,0 +1,53 @@
+ul li {
+  display: inline-flex;
+  line-height: 10px;
+  padding-right: 10px;
+  border: #920000 2px solid;
+  margin: 20px; }
+
+ul li a {
+  padding: 10PX;
+  margin: 10px;
+  color: #be0000;
+  font-weight: 600; }
+
+header {
+  background: mediumorchid;
+  position: rel;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  text-transform: uppercase; }
+
+nav {
+  text-align: center; }
+
+h1 {
+  color: #be0000;
+  font-size: 40px;
+  font-family: monospace;
+  font-style: oblique;
+  text-align: center;
+  font-family: 'Poller One', cursive; }
+
+.CarteraUno {
+  font-size: 30px;
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 60px; }
+
+footer {
+  text-align: center;
+  font-size: 300%;
+  background: mediumseagreen; }
+
+.BolsoUno {
+  color: #3cc93f;
+  margin-bottom: 20px; }
+
+h2 {
+  text-align: center; }
+
+#secProductos {
+  background: linear-gradient(red, black); }
